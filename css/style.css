@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Sarabun:wght@600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.promo
+{   
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f8fb;
+    background-image: linear-gradient(60.0deg, #f7f8fa 5%, #f0f1fa 94%);
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+}
+.nav
+{   
+    width: 82%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav ul
+{
+    flex: 1;
+    text-align: right;
+}
+.nav ul li
+{   
+    
+    display: inline-block;
+    list-style: none;
+    margin: 0 32px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Sarabun;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #71788f;
+    transition: 0.3s all;
+}
+.nav ul li a:hover
+{
+    color: #41afff;
+}
+
+button
+{
+    width: 91px;
+    height: 38px;
+    background-color: #41afff;
+    box-shadow: 0px 20px 26px 0px rgba(65,175,255,0.2);
+    border-radius: 6px;
+    font-family: Sarabun;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover
+{
+    color: #41afff;
+    border: 1px solid  #41afff;
+    background: #fff;
+}
+.col-left
+{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.title
+{
+    font-family: Rubik;
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #101f41;
+}
+.subtitle
+{
+    font-family: Sarabun;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #71788f;
+    margin-top: 26px;
+}
+.get
+{
+    width: 204px;
+    height: 54px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 36px;
+}
+.col-right
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 77px;
+    
+}
+.col-right img
+{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    
+}
