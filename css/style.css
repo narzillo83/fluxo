@@ -277,3 +277,153 @@ button:hover
     margin-top: 31px;
     cursor: pointer;
 }
+.roi
+{
+    min-height: 703px;
+    padding: 147px 0 185px 0;
+    background-color: #f6f8fb;
+    background-image: linear-gradient(-25.0deg, #f3f4fb 48%, #f3f4fb 40%, #fcfdff 81%);
+}
+.roi__container
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+.roi__wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+.roi__img
+{
+    width: 540px;
+    height: 365px;
+}
+.roi__block
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 125px;
+}
+.roi__round
+{   
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 11px 1px rgba(132,138,163,0.1);
+    border-radius: 16px;
+}
+.roi__icon
+{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+
+}
+.roi__title
+{
+    font-family: Rubik;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #101f41;
+    margin-top: 47px;
+}
+.roi__descr
+{
+    font-family: Sarabun;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #71788f;
+    margin-top: 30px;
+}
+.roi__more
+{
+    font-family: Sarabun;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #37b9f1;
+    cursor: pointer;
+    margin-top: 32px;
+}
+.team
+{
+    min-height: 700px;
+    padding: 125px 0 63px 0;
+    background-color: #f6f8fb;
+    background-image: linear-gradient(-20.0deg, #f2f3fa 17%, #fcfdff 82%);
+}
+.team__container
+{
+    width: 1110px;
+    margin: 0 auto;
+}
+.team__info
+{   
+    display: flex;
+    justify-content: space-between;
+}
+.team__block
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.team__round
+{   
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 11px 1px rgba(132,138,163,0.1);
+    border-radius: 16px;
+}
+.team__icon
+{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29px;
+    height: 28px;
+}
+.team__title
+{
+    font-family: Rubik;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #101f41;
+    margin-top: 51px;
+}
+.team__descr
+{
+    font-family: Sarabun;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #71788f;
+    width: 440px;
+    margin-top: 30px;
+}
+.team__more
+{
+    font-family: Sarabun;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #37b9f1;
+    margin-top: 31px;
+    cursor: pointer;
+}
